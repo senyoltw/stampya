@@ -1,0 +1,28 @@
+{
+  "name": "stampya",
+  "description": "Chat with big :emoji: in slack.",
+  "repository": "https://github.com/senyoltw/stampya",
+  "env": {
+    "URL": {
+      "description": "Application URL",
+      "value": ""
+    },
+    "SLACK_VERIFICATION_TOKEN": {
+      "description": "Slack verification token",
+      "value": ""
+    },
+    "SLACK_CLIENT_ID": {
+      "description": "Slack oauth application client id",
+      "value": ""
+    },
+    "SLACK_CLIENT_SECRET": {
+      "description": "Slack oauth application secret",
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+      "plan": "mongolab:sandbox"
+    }
+  ]
+}

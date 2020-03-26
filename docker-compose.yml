@@ -1,0 +1,18 @@
+version: "2"
+
+services:
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    restart: always
+  web:
+    build: .
+    command: yarn start
+    ports:
+      - "8124:8124"
+    volumes:
+      - .:/app
+    depends_on:
+      - mongo
+    env_file: .env
