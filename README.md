@@ -65,12 +65,6 @@ Select `OAuth & Permissions` from Features menu.
 
 In the heroku application, input variables from slack application `App Credentials`.
 
-#### Configure URL
-
-```sh
-heroku config:set URL=$(heroku info -s | grep web_url | cut -d= -f2)
-```
-
 #### Set CRON
 
 ```sh
