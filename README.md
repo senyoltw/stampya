@@ -63,7 +63,7 @@ Select `OAuth & Permissions` from Features menu.
 
 ### Setup environment variables
 
-In the heroku application, input variables from slack application `App Credentials`.
+In the heroku application, input variables from slack application `Config Vars`.
 
 #### Set CRON
 
