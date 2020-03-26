@@ -8,7 +8,7 @@ Chat with big :emoji: in slack.
 
 ### Create heroku application
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/senyoltw/stampya)
 
 Now, environment variables is temporary.
 
